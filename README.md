@@ -15,3 +15,9 @@ Backend: Node.js, Express.js
 Database: MongoDB
 Hosting: Heroku/Vercel
 Version Control: Git
+
+## Deployment
+The site can be deployed using Heroku or Vercel. Follow their respective guides to deploy Node.js applications.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
