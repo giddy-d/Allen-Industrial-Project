@@ -20,4 +20,4 @@ Version Control: Git
 The site can be deployed using Heroku or Vercel. Follow their respective guides to deploy Node.js applications.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/giddy-d/Allen-Industrial-Project/blob/160ce1f49a436cb03b871e02beb3deaeffff75fa/LICENSE) file for details.
