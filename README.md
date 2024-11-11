@@ -10,7 +10,7 @@ Customer Testimonials: Feedback from satisfied customers.
 Blog: Articles and updates on home renovation tips and company news.
 
 ## Technology Stack
-Frontend: HTML, CSS, JavaScript, React.js
+Frontend: HTML, CSS, JavaScript, React.js, some python as well.
 Backend: Node.js, Express.js
 Database: MongoDB
 Hosting: Heroku/Vercel
