@@ -1,1 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Allen Industrial</title>
+  <!-- Add SEO meta tags -->
+  <meta name="description" content="Allen Industrial provides expert home renovation and improvement services.">
+  <meta name="keywords" content="home renovation, home improvement, construction services">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css"> <!-- Link to CSS -->
+  <!-- Add Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+</head>
+<body>
 
+  <header>
+    <h1>Allen Industrial</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Welcome to Allen Industrial</h2>
+      <p>Your go-to for home renovation and improvement services.</p>
+    </section>
+
+    <!-- New "About Us" -->
+ <section id="about">
+  <h2>About Us</h2>
+  <p>Allen Industrial is dedicated to providing exceptional home renovation and improvement services. Our team brings decades of experience, a passion for craftsmanship, and a commitment to customer satisfaction. From concept to completion, we deliver projects that make your vision a reality.</p>
+  <p>Founded on the principles of quality, integrity, and professionalism, we take pride in every project we undertake, big or small. Our goal is to exceed your expectations and leave a lasting impression through our work.</p>
+</section>
+
+<section id="portfolio">
+  <h2>Our Projects</h2>
+  <div class ="projects">
+      <article class="project-item">
+          <img src="project1.jpg" alt="Completed renovation project">
+          <p>Project description goes here</p>
+      </article> 
+      <!-- Add more projects -add l8tr- -->
+  </div>
+</section>
+
+<!-- Other existing sections add later -->
+
+    <section id="portfolio">
+      <h2>Our Projects</h2>
+      <div class="projects">
+        <article class="project-item">
+          <img src="project1.jpg" alt="Completed kitchen renovation project">
+          <p>Project description goes here</p>
+        </article>
+        <!-- Add more projects -->
+      </div>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>General Home Repairs</li>
+        <li>Renovations</li>
+        <li>Construction-related tasks</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="/submit" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Allen Industrial. All rights reserved.</p>
+  </footer>
+
+  <!-- Optional: Add JavaScript for form validation -->
+  <script>
+    document.querySelector('form').addEventListener('submit', function(event) {
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const message = document.getElementById('message').value;
+
+      if (!name || !email || !message) {
+        alert('Please fill out all fields before submitting.');
+        event.preventDefault();
+      }
+    });
+  </script>
+
+</body>
+</html>
